@@ -30,7 +30,7 @@
 	
 	app.post('/login', passport.authenticate('local-login', {
             successRedirect : '/home', // redirect to the secure home section
-            failureRedirect : '/login', // redirect back to the signup page if there is an error
+            failureRedirect : '/home', // redirect back to the signup page if there is an error
             failureFlash : true // allow flash messages
 		}),
         function(req, res) {
