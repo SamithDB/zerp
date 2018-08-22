@@ -4,8 +4,17 @@
   "description": "A simple portfolio site to demo a Node.js applicatoin",
   "main": "app.js",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
     "ejs": "^2.6.1",
     "express": "^4.15.2",
+    "express-mysql-session": "^2.0.0",
+    "express-session": "^1.15.6",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
     "path": "^0.12.7"
   },
   "devDependencies": {},
